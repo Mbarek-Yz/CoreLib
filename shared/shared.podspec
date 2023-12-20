@@ -2,9 +2,9 @@ Pod::Spec.new do |spec|
     spec.name                     = 'MercrediLib'
     spec.version                  = '1.0'
     spec.homepage                 = 'Link to the Shared Module homepage'
-    spec.source                   = { :http=> ''}
+    spec.source                   = { :git => 'https://github.com/Mbarek-Yz/CoreLib.git', :tag => '1.0' }   
     spec.authors                  = ''
-    spec.license                  = ''
+    spec.license                  = { :type => 'MIT', :file => 'LICENSE' }
     spec.summary                  = 'Some description for the Shared Module'
     spec.vendored_frameworks      = 'build/cocoapods/framework/shared.framework'
     spec.libraries                = 'c++'
